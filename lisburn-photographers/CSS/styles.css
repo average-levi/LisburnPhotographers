@@ -1,0 +1,45 @@
+.navbar {
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.nav-link, .navbar-brand{
+    color: white;
+}
+
+
+footer{
+color: white;
+padding-top: 20px;
+padding-bottom: 10px;
+padding-left: 5px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.green-footer{
+    margin-top: 10px;
+}
+
+.bgrdimage {
+background-image: url(../images/header-background.jpg);
+height: 200px;
+color: white;
+text-align: center;
+background-repeat: no-repeat; /* background image doesn't tile */
+background-size: cover; /* this makes the background image rescale based on the size of the container */ background-position: center center; /* Image is centred vertically and horizontally */
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+.Hedderbro{
+    margin-top: 20px;
+}
+
+.current-page{
+    color: rgb(238, 237, 237);
+}
+
+.navbar-brand:hover, .nav-link:hover{
+        text-decoration: underline;
+}
